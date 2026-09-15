@@ -1,0 +1,23 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "ugarit-lsp",
+    "version": "1.0.0",
+    "description": "Ugarit language server for PHP code intelligence",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    },
+    "extensions": {
+        "com.anthropic.claude-code": {
+            "lspServers": {
+                "ugarit-lsp": {
+                    "command": "ugarit-lsp",
+                    "args": [],
+                    "extensionToLanguage": {
+                        ".php": "php"
+                    }
+                }
+            }
+        }
+    }
+}

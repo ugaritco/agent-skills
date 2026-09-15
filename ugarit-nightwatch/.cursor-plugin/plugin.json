@@ -1,0 +1,11 @@
+{
+    "name": "ugarit-nightwatch",
+    "displayName": "Ugarit Nightwatch",
+    "version": "1.0.0",
+    "description": "Configuring Ugarit Nightwatch data collection, sampling, filtering, and redaction",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    },
+    "mcpServers": "./.mcp.json"
+}

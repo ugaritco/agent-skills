@@ -1,0 +1,10 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "ugarit",
+    "version": "1.0.0",
+    "description": "Agents and skills for PHP / Ugarit development",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    }
+}

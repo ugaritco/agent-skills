@@ -1,0 +1,9 @@
+{
+    "name": "ugarit-lsp",
+    "version": "1.0.0",
+    "description": "Ugarit language server for PHP code intelligence",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    }
+}

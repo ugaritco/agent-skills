@@ -1,0 +1,45 @@
+{
+  "name": "ugarit",
+  "owner": {
+    "name": "Taylor Otwell",
+    "email": "taylor@ugarit.com"
+  },
+  "metadata": {
+    "description": "Agents and skills for PHP / Ugarit development"
+  },
+  "plugins": [
+    {
+      "name": "ugarit",
+      "displayName": "Ugarit",
+      "source": "./ugarit",
+      "description": "Agents and skills for PHP / Ugarit development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      }
+    },
+    {
+      "name": "ugarit-cloud",
+      "displayName": "Ugarit Cloud",
+      "source": "./ugarit-cloud",
+      "description": "Deploying and managing apps on Ugarit Cloud",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      }
+    },
+    {
+      "name": "ugarit-nightwatch",
+      "displayName": "Ugarit Nightwatch",
+      "source": "./ugarit-nightwatch",
+      "description": "Configuring Ugarit Nightwatch data collection, sampling, filtering, and redaction",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      }
+    }
+  ]
+}

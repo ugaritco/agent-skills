@@ -1,0 +1,10 @@
+{
+    "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+    "name": "ugarit-nightwatch",
+    "version": "1.0.0",
+    "description": "Configuring Ugarit Nightwatch data collection, sampling, filtering, and redaction",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    }
+}

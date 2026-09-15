@@ -1,0 +1,66 @@
+{
+  "name": "ugarit",
+  "owner": {
+    "name": "Taylor Otwell",
+    "email": "taylor@ugarit.com"
+  },
+  "metadata": {
+    "description": "Agents and skills for PHP / Ugarit development"
+  },
+  "plugins": [
+    {
+      "name": "ugarit",
+      "source": "./ugarit",
+      "description": "Agents and skills for PHP / Ugarit development",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "ugarit-cloud",
+      "source": "./ugarit-cloud",
+      "description": "Deploying and managing apps on Ugarit Cloud",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "ugarit-nightwatch",
+      "source": "./ugarit-nightwatch",
+      "description": "Configuring Ugarit Nightwatch data collection, sampling, filtering, and redaction",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      },
+      "category": "productivity"
+    },
+    {
+      "name": "ugarit-lsp",
+      "source": "./ugarit-lsp",
+      "description": "Ugarit language server for PHP code intelligence",
+      "version": "1.0.0",
+      "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+      },
+      "category": "development",
+      "strict": false,
+      "lspServers": {
+        "ugarit-lsp": {
+          "command": "ugarit-lsp",
+          "args": [],
+          "extensionToLanguage": {
+            ".php": "php"
+          }
+        }
+      }
+    }
+  ]
+}

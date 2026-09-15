@@ -1,0 +1,10 @@
+{
+    "name": "ugarit",
+    "displayName": "Ugarit",
+    "version": "1.0.0",
+    "description": "Agents and skills for PHP / Ugarit development",
+    "author": {
+        "name": "Taylor Otwell",
+        "email": "taylor@ugarit.com"
+    }
+}
